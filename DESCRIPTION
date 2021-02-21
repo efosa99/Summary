@@ -1,0 +1,22 @@
+Package: Summary
+Version: 0.5-1
+Date: 2015-01-01
+Title: My First Collection of Functions
+Authors@R: c(person("Eduardo", "Developer", role = c("aut", "cre"),
+                     email = "Eduardo.Developer@some.domain.net"),
+              person("Pat", "Developer", role = "aut"),
+              person("A.", "User", role = "ctb",
+                     email = "A.User@whereever.net"))
+Author: Eduardo Developer [aut, cre],
+  Pat Developer [aut],
+  A. User [ctb]
+Maintainer: Eduardo Developer <Eduardo.Developer@some.domain.net>
+Depends: R (>= 3.1.0), nlme
+Suggests: MASS
+Description: A (one paragraph) description of what
+  the package does and why it may be useful.
+License: GPL (>= 2)
+URL: https://www.r-project.org, http://www.another.url
+BugReports: https://pkgname.bugtracker.url
+RoxygenNote: 7.1.1
+Encoding: UTF-8
